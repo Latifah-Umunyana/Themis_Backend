@@ -1,7 +1,7 @@
 
 
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, get_user_model  # Use get_user_model for custom user models
+from django.contrib.auth import authenticate, login, get_user_model 
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status

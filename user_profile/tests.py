@@ -22,6 +22,4 @@ class UserProfileTests(TestCase):
             profile.profile_picture is None or profile.profile_picture.name == ""
         )
 
-        # Testing picture upload
-
         
